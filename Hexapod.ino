@@ -82,11 +82,11 @@ void walkLeft() {
   setMidLeg(MID_LEG_LIFT_RIGHT);
   delay(500);
   setRightLeg(RIGHT_LEG_FWD);
-  setLeftLeg(LEFT_LEG_REV);  
+  setLeftLeg(LEFT_LEG_FWD);  
   delay(500);
   setMidLeg(MID_LEG_LIFT_RIGHT);
   delay(500);
-  setRightLeg(RIGHT_LEG_FWD);
+  setRightLeg(RIGHT_LEG_REV);
   setLeftLeg(LEFT_LEG_REV);
   delay(500);
 }
